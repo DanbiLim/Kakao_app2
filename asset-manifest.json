@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Kakao_app2/static/css/main.ed262ee1.chunk.css",
+    "main.js": "/Kakao_app2/static/js/main.a5fe3223.chunk.js",
+    "main.js.map": "/Kakao_app2/static/js/main.a5fe3223.chunk.js.map",
+    "runtime-main.js": "/Kakao_app2/static/js/runtime-main.f05a7993.js",
+    "runtime-main.js.map": "/Kakao_app2/static/js/runtime-main.f05a7993.js.map",
+    "static/js/2.726ae0e8.chunk.js": "/Kakao_app2/static/js/2.726ae0e8.chunk.js",
+    "static/js/2.726ae0e8.chunk.js.map": "/Kakao_app2/static/js/2.726ae0e8.chunk.js.map",
+    "index.html": "/Kakao_app2/index.html",
+    "static/css/main.ed262ee1.chunk.css.map": "/Kakao_app2/static/css/main.ed262ee1.chunk.css.map",
+    "static/js/2.726ae0e8.chunk.js.LICENSE.txt": "/Kakao_app2/static/js/2.726ae0e8.chunk.js.LICENSE.txt",
+    "static/media/Profile.scss": "/Kakao_app2/static/media/bg_default.82687b4e.png",
+    "static/media/More.scss": "/Kakao_app2/static/media/path.7d00edf7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f05a7993.js",
+    "static/js/2.726ae0e8.chunk.js",
+    "static/css/main.ed262ee1.chunk.css",
+    "static/js/main.a5fe3223.chunk.js"
+  ]
+}
