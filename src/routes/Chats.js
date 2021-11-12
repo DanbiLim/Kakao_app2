@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
 import Headerstatus from '../components/Headerstatus'
 import friends from '../data/FriendList.json'
 import ChatList from '../components/ChatList'
@@ -47,27 +46,8 @@ function Chats() {
                         />
                     ))}
                 </div>
-                {/* <ul>
-                    {friends.map(friend => {
-                        return (
-                            <li>
-                                <Link to="/chatting" state={{id, name, profileword, profileimg, profilebgimg, email}}>
-                                    <span className="chats_img empty">
-                                        {friend.profileimg ? <img src={friend.profileimg} alt="" /> : ''}
-                                    </span>
-                                    <span className="chats_cont">
-                                        <span className="chats_name">{friend.name}</span>
-                                        <span className="chats_latest">{friend.lastmsg}</span>
-                                    </span>
-                                    <span className="chats_time"><span>{friend.lasttime}</span></span>
-                                </Link>
-                            </li>
-                        )
-                    })}
-                </ul> */}
             </section>
         </main>
-        <Navigation />
         </>
     )
 }

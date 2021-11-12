@@ -7,11 +7,12 @@ import Chats from './routes/Chats';
 import Chatting from './routes/Chatting';
 import Find from './routes/Find';
 import More from './routes/More';
+import Navigation from './components/Navigation'
 import './reset.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Friends />} />
         <Route path="/profile" element={<Profile />} />
@@ -20,6 +21,7 @@ function App() {
         <Route path="/find" element={<Find />} />
         <Route path="/more" element={<More />} />
       </Routes>
+      <Navigation />
     </BrowserRouter>
   );
 }
